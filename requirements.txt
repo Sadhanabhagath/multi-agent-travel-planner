@@ -1,0 +1,59 @@
+# ============================================================
+# Multi-Agent Travel Planner — Dependencies
+# ============================================================
+
+# --- Core AI Frameworks ---
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
+crewai>=0.80.0
+crewai-tools>=0.14.0
+pyautogen>=0.4.0
+pydantic-ai>=0.0.14
+
+# --- LLM Providers ---
+openai>=1.50.0
+anthropic>=0.36.0
+
+# --- Data Validation ---
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# --- HTTP & APIs ---
+httpx>=0.27.0
+aiohttp>=3.10.0
+requests>=2.32.0
+
+# --- Travel APIs ---
+amadeus>=9.0.0
+
+# --- Async & Concurrency ---
+asyncio-throttle>=1.0.2
+tenacity>=9.0.0          # Retry logic for API calls
+
+# --- Data Processing ---
+pandas>=2.2.0
+rich>=13.8.0             # Beautiful terminal output
+typer>=0.12.0            # CLI framework
+
+# --- Storage & Caching ---
+redis>=5.1.0
+diskcache>=5.6.3
+
+# --- Observability ---
+langsmith>=0.1.130
+loguru>=0.7.2
+
+# --- Testing ---
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+pytest-mock>=3.14.0
+respx>=0.21.0            # HTTP mocking
+
+# --- Dev Tools ---
+python-dotenv>=1.0.1
+black>=24.10.0
+ruff>=0.7.0
+mypy>=1.13.0
+pre-commit>=4.0.0
